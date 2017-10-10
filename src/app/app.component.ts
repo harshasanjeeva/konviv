@@ -3,6 +3,8 @@ import { AccountsPage } from './../pages/accounts/accounts';
 import { OverviewPage } from './../pages/overview/overview';
 import { SettingsPage } from './../pages/settings/settings';
 import { HelpPage } from './../pages/help/help';
+import { LoginPage } from './../pages/login/login';
+import { BucketsPage } from './../pages/buckets/buckets';
 
 
 
@@ -38,10 +40,12 @@ export class MyApp {
     // set our app's pages
     this.pages = [
       { title: 'Home', component: HomePage },
+      { title: 'Buckets', component: BucketsPage },
       { title: 'Accounts', component: AccountsPage },
       { title: 'Overview', component: OverviewPage },
-      { title: 'Settings', component: SettingsPage },      
+      { title: 'Settings', component: SettingsPage },
       { title: 'Help', component: HelpPage },
+      { title: 'Login', component: LoginPage }
     ];
   }
 

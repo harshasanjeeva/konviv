@@ -9,7 +9,8 @@ import { AccountsPage } from './../pages/accounts/accounts';
 import { OverviewPage } from './../pages/overview/overview';
 import { SettingsPage } from './../pages/settings/settings';
 import { HelpPage } from './../pages/help/help';
-
+import { LoginPage } from './../pages/login/login';
+import { BucketsPage } from './../pages/buckets/buckets';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,7 +23,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OverviewPage,
     SettingsPage,
     HelpPage,
-    TabsPage
+    TabsPage,
+    LoginPage,
+    BucketsPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OverviewPage,
     SettingsPage,
     HelpPage,
-    TabsPage
+    TabsPage,
+    LoginPage,
+    BucketsPage
   ],
   providers: [
     StatusBar,
