@@ -11,6 +11,8 @@ import { SettingsPage } from './../pages/settings/settings';
 import { HelpPage } from './../pages/help/help';
 import { LoginPage } from './../pages/login/login';
 import { BucketsPage } from './../pages/buckets/buckets';
+import { BillsPage } from './../pages/bills/bills';
+import { SavingsPage } from './../pages/savings/savings';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,7 +27,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HelpPage,
     TabsPage,
     LoginPage,
-    BucketsPage
+    BucketsPage,
+    BillsPage,
+    SavingsPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +45,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HelpPage,
     TabsPage,
     LoginPage,
-    BucketsPage
+    BucketsPage,
+    BillsPage,
+    SavingsPage
   ],
   providers: [
     StatusBar,

@@ -5,8 +5,8 @@ import { SettingsPage } from './../pages/settings/settings';
 import { HelpPage } from './../pages/help/help';
 import { LoginPage } from './../pages/login/login';
 import { BucketsPage } from './../pages/buckets/buckets';
-
-
+import { BillsPage } from './../pages/bills/bills';
+import { SavingsPage } from './../pages/savings/savings';
 
 import { TabsPage } from './../pages/tabs/tabs';
 import { Component, ViewChild } from '@angular/core';
@@ -45,6 +45,8 @@ export class MyApp {
       { title: 'Overview', component: OverviewPage },
       { title: 'Settings', component: SettingsPage },
       { title: 'Help', component: HelpPage },
+      { title: 'Bills', component: BillsPage },
+      { title: 'Savings', component: SavingsPage },
       { title: 'Login', component: LoginPage }
     ];
   }
