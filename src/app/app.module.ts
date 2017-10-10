@@ -1,11 +1,15 @@
+import { TabsPage } from './../pages/tabs/tabs';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
-import { ItemDetailsPage } from '../pages/item-details/item-details';
-import { ListPage } from '../pages/list/list';
+import { HomePage } from './../pages/home/home';
+import { AccountsPage } from './../pages/accounts/accounts';
+import { OverviewPage } from './../pages/overview/overview';
+import { SettingsPage } from './../pages/settings/settings';
+import { HelpPage } from './../pages/help/help';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -13,9 +17,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    HelloIonicPage,
-    ItemDetailsPage,
-    ListPage
+    HomePage,
+    AccountsPage,
+    OverviewPage,
+    SettingsPage,
+    HelpPage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -24,9 +31,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HelloIonicPage,
-    ItemDetailsPage,
-    ListPage
+    HomePage,
+    AccountsPage,
+    OverviewPage,
+    SettingsPage,
+    HelpPage,
+    TabsPage
   ],
   providers: [
     StatusBar,
