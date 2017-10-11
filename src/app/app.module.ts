@@ -13,6 +13,8 @@ import { LoginPage } from './../pages/login/login';
 import { BucketsPage } from './../pages/buckets/buckets';
 import { BillsPage } from './../pages/bills/bills';
 import { SavingsPage } from './../pages/savings/savings';
+import { NotificationsPage } from './../pages/notifications/notifications';
+import { LogoutPage } from './../pages/logout/logout';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,7 +31,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     BucketsPage,
     BillsPage,
-    SavingsPage
+    SavingsPage,
+    NotificationsPage,
+    LogoutPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +51,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     BucketsPage,
     BillsPage,
-    SavingsPage
+    SavingsPage,
+    NotificationsPage,
+    LogoutPage
   ],
   providers: [
     StatusBar,
