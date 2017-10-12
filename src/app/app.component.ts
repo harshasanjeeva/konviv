@@ -1,25 +1,22 @@
-import { HomePage } from './../pages/home/home';
 import { AccountsPage } from './../pages/accounts/accounts';
-import { OverviewPage } from './../pages/overview/overview';
-import { SettingsPage } from './../pages/settings/settings';
-import { HelpPage } from './../pages/help/help';
-import { LoginPage } from './../pages/login/login';
-import { BucketsPage } from './../pages/buckets/buckets';
 import { BillsPage } from './../pages/bills/bills';
-import { SavingsPage } from './../pages/savings/savings';
-import { NotificationsPage } from './../pages/notifications/notifications';
+import { BucketsPage } from './../pages/buckets/buckets';
+import { HelpPage } from './../pages/help/help';
+import { HomePage } from './../pages/home/home';
+import { LoginPage } from './../pages/login/login';
 import { LogoutPage } from './../pages/logout/logout';
-
+import { NotificationsPage } from './../pages/notifications/notifications';
+import { OverviewPage } from './../pages/overview/overview';
+import { ProfilePage } from './../pages/profile/profile';
+import { SavingsPage } from './../pages/savings/savings';
+import { SettingsPage } from './../pages/settings/settings';
 import { TabsPage } from './../pages/tabs/tabs';
+
 import { Component, ViewChild } from '@angular/core';
-
 import { Platform, MenuController, Nav } from 'ionic-angular';
-
-
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
 
 @Component({
   templateUrl: 'app.html'
@@ -41,15 +38,13 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'Buckets', component: BucketsPage },
-      { title: 'Accounts', component: AccountsPage },
-      { title: 'Overview', component: OverviewPage },
-      { title: 'Settings', component: SettingsPage },
-      { title: 'Help', component: HelpPage },
       { title: 'Bills', component: BillsPage },
+      { title: 'Buckets', component: BucketsPage },
+      { title: 'Help', component: HelpPage },
+      { title: 'Login', component: LoginPage },
+      { title: 'Profile', component: ProfilePage },
       { title: 'Savings', component: SavingsPage },
-      { title: 'Login', component: LoginPage }
+      { title: 'Settings', component: SettingsPage },
     ];
   }
 

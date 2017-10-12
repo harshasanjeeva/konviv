@@ -1,20 +1,21 @@
-import { TabsPage } from './../pages/tabs/tabs';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { HomePage } from './../pages/home/home';
 import { AccountsPage } from './../pages/accounts/accounts';
-import { OverviewPage } from './../pages/overview/overview';
-import { SettingsPage } from './../pages/settings/settings';
-import { HelpPage } from './../pages/help/help';
-import { LoginPage } from './../pages/login/login';
-import { BucketsPage } from './../pages/buckets/buckets';
 import { BillsPage } from './../pages/bills/bills';
-import { SavingsPage } from './../pages/savings/savings';
-import { NotificationsPage } from './../pages/notifications/notifications';
+import { BucketsPage } from './../pages/buckets/buckets';
+import { HelpPage } from './../pages/help/help';
+import { HomePage } from './../pages/home/home';
+import { LoginPage } from './../pages/login/login';
 import { LogoutPage } from './../pages/logout/logout';
+import { NotificationsPage } from './../pages/notifications/notifications';
+import { OverviewPage } from './../pages/overview/overview';
+import { ProfilePage } from './../pages/profile/profile';
+import { SavingsPage } from './../pages/savings/savings';
+import { SettingsPage } from './../pages/settings/settings';
+import { TabsPage } from './../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,16 +25,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     AccountsPage,
-    OverviewPage,
-    SettingsPage,
-    HelpPage,
-    TabsPage,
-    LoginPage,
-    BucketsPage,
     BillsPage,
-    SavingsPage,
+    BucketsPage,
+    HelpPage,
+    LoginPage,
+    LogoutPage,
     NotificationsPage,
-    LogoutPage
+    OverviewPage,
+    ProfilePage,
+    SavingsPage,
+    SettingsPage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -44,16 +46,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     AccountsPage,
-    OverviewPage,
-    SettingsPage,
-    HelpPage,
-    TabsPage,
-    LoginPage,
-    BucketsPage,
     BillsPage,
-    SavingsPage,
+    BucketsPage,
+    HelpPage,
+    LoginPage,
+    LogoutPage,
     NotificationsPage,
-    LogoutPage
+    OverviewPage,
+    ProfilePage,
+    SavingsPage,
+    SettingsPage,
+    TabsPage
   ],
   providers: [
     StatusBar,
