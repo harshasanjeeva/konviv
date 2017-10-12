@@ -5,22 +5,28 @@
       <ion-icon name="menu"></ion-icon>
     </button>
 
-    <ion-buttons>
-      <button ion-button color="dark" clear>
+    <!--Chat icon, Konviv icon, profile icon-->
+    <div class="btn-wrapper">
+      <button ion-button color="dark" clear float-start>
         <ion-icon name="chatbubbles"></ion-icon>
       </button>
-    </ion-buttons>
 
-    <ion-title>KONVIV</ion-title>
+      <!--<ion-title>KONVIV</ion-title>-->
+      <button ion-button clear>
+        <img src="https://raw.githubusercontent.com/Konviv/KonvivMVP/master/logo.jpg"
+             alt="KONVIV"
+             height="30"
+             width="30">
+      </button>
 
-    <ion-buttons end>
-      <button ion-button color="dark" clear>
+      <button ion-button color="dark" clear float-end>
         <ion-icon name="person"></ion-icon>
       </button>
-    </ion-buttons>
+    </div>
 
   </ion-navbar>
 
+  <!--Segment within header-->
   <!--<ion-toolbar>-->
     <!--<ion-segment>-->
       <!--<ion-segment-button value="">Bills</ion-segment-button>-->
@@ -34,6 +40,7 @@
 
 <ion-content padding>
 
+  <!--Segment below header-->
   <!--<ion-segment>-->
     <!--<ion-segment-button value="0">Bills</ion-segment-button>-->
     <!--<ion-segment-button value="1">Main</ion-segment-button>-->
