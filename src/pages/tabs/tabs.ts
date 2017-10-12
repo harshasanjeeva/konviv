@@ -26,7 +26,7 @@ export class TabsPage {
 
   tab1 = NotificationsPage;
   tab2 = AccountsPage ;
-  tab3 = BucketsPage;
+  tab3 = HomePage;
   tab4 = OverviewPage;
   tab5 = LogoutPage;
   tab6 = BillsPage;
