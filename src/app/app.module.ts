@@ -14,9 +14,9 @@ import { NotificationsPage } from './../pages/notifications/notifications';
 import { OverviewPage } from './../pages/overview/overview';
 import { ProfilePage } from './../pages/profile/profile';
 import { SavingsPage } from './../pages/savings/savings';
-import { SegmentTestPage } from './../pages/segment-test/segment-test';
 import { SettingsPage } from './../pages/settings/settings';
 import { TabsPage } from './../pages/tabs/tabs';
+import { ToptabsPage } from './../pages/toptabs/toptabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -35,9 +35,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OverviewPage,
     ProfilePage,
     SavingsPage,
-    SegmentTestPage,
     SettingsPage,
-    TabsPage
+    TabsPage,
+    ToptabsPage
   ],
   imports: [
     BrowserModule,
@@ -57,9 +57,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OverviewPage,
     ProfilePage,
     SavingsPage,
-    SegmentTestPage,
     SettingsPage,
-    TabsPage
+    TabsPage,
+    ToptabsPage
   ],
   providers: [
     StatusBar,

@@ -9,13 +9,12 @@ import { NotificationsPage } from './../pages/notifications/notifications';
 import { OverviewPage } from './../pages/overview/overview';
 import { ProfilePage } from './../pages/profile/profile';
 import { SavingsPage } from './../pages/savings/savings';
-import { SegmentTestPage } from './../pages/segment-test/segment-test';
 import { SettingsPage } from './../pages/settings/settings';
 import { TabsPage } from './../pages/tabs/tabs';
+import { ToptabsPage } from './../pages/toptabs/toptabs';
 
 import { Component, ViewChild } from '@angular/core';
 import { Platform, MenuController, Nav } from 'ionic-angular';
-
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -26,7 +25,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make HelloIonicPage the root (or first) page
-  rootPage = TabsPage ;
+  rootPage = TabsPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(
@@ -39,13 +38,10 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Bills', component: BillsPage },
       { title: 'Buckets', component: BucketsPage },
       { title: 'Help', component: HelpPage },
       { title: 'Login', component: LoginPage },
       { title: 'Profile', component: ProfilePage },
-      { title: 'Savings', component: SavingsPage },
-      { title: 'Segment Test', component: SegmentTestPage },
       { title: 'Settings', component: SettingsPage },
     ];
   }

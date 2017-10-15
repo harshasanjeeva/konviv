@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { SettingsPage } from './../settings/settings';
 import { OverviewPage } from './../overview/overview';
@@ -12,7 +12,7 @@ import { BillsPage } from '../bills/bills';
 import { SavingsPage } from '../savings/savings';
 
 /**
- * Generated class for the TabsPage tabs.
+ * Generated class for the ToptabsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -20,26 +20,16 @@ import { SavingsPage } from '../savings/savings';
 
 @IonicPage()
 @Component({
-  selector: 'page-tabs',
-  templateUrl: 'tabs.html'
+  selector: 'page-toptabs',
+  templateUrl: 'toptabs.html',
 })
-export class TabsPage {
+export class ToptabsPage {
 
-  tab1 = NotificationsPage;
-  tab2 = AccountsPage ;
-  tab3 = HomePage;
-  tab4 = OverviewPage;
-  tab5 = LogoutPage;
+  tab0 = BillsPage;
+  tab1 = HomePage;
+  tab2 = SavingsPage;
 
-/*
-  tab6 = BillsPage;
-  tab7 = HomePage;
-  tab8 = SavingsPage;
-*/
-  constructor(public navCtrl: NavController) {
-
-
-
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
 }
