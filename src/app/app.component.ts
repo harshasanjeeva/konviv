@@ -38,6 +38,7 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
+      { title: 'Home', component: HomePage },
       { title: 'Buckets', component: BucketsPage },
       { title: 'Help', component: HelpPage },
       { title: 'Login', component: LoginPage },

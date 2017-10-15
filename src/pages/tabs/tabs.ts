@@ -25,11 +25,11 @@ import { SavingsPage } from '../savings/savings';
 })
 export class TabsPage {
 
-  tab1 = NotificationsPage;
-  tab2 = AccountsPage ;
-  tab3 = HomePage;
-  tab4 = OverviewPage;
-  tab5 = LogoutPage;
+  tab1: any = NotificationsPage;
+  tab2: any = AccountsPage ;
+  tab3: any = HomePage;
+  tab4: any = OverviewPage;
+  tab5: any = LogoutPage;
 
 /*
   tab6 = BillsPage;
